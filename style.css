@@ -22,7 +22,9 @@ body {
 }
 a {
   text-decoration: none;
+  
 }
+
 
 ul {
   list-style: none;
@@ -133,6 +135,10 @@ aside a {
 aside a:hover{
   background: var(--primary-color);
   color: white;
+}
+
+aside a:link {
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
